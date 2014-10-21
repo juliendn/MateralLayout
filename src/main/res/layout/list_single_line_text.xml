@@ -2,11 +2,11 @@
 
 
 <TextView
-    android:id="@+id/list_text_1"
+    android:id="@id/list_text_1"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/list_no_icon_text_padding"
+    android:layout_height="@dimen/list_item_single_line_height"
 
     android:paddingTop="@dimen/list_big_vertical_padding"
     android:paddingBottom="@dimen/list_big_vertical_padding"

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@id/list_img"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:src="@drawable/circle"/>
+
+    <ImageView
+        android:id="@id/list_icon_1"
+
+        android:background="?attr/colorAccent"
+
+        android:layout_width="@dimen/list_item_single_line_height"
+        android:layout_height="0dp"
+
+        android:layout_alignTop="@id/list_text_1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:paddingLeft="?attr/listPreferredItemPaddingLeft"
+        android:paddingStart="?attr/listPreferredItemPaddingLeft"
+        android:paddingRight="?attr/listPreferredItemPaddingRight"
+        android:paddingEnd="?attr/listPreferredItemPaddingRight"
+        android:paddingTop="@dimen/list_big_vertical_padding"
+        android:paddingBottom="@dimen/list_big_vertical_padding"
+
+        tools:src="@drawable/square"/>
+
+    <TextView
+        android:id="@id/list_text_2"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:background="?attr/colorAccent"
+
+        android:layout_toLeftOf="@id/list_icon_1"
+        android:layout_toStartOf="@id/list_icon_1"
+
+        android:paddingLeft="?attr/listPreferredItemPaddingLeft"
+        android:paddingRight="?attr/listPreferredItemPaddingRight"
+        android:paddingStart="?attr/listPreferredItemPaddingLeft"
+        android:paddingEnd="?attr/listPreferredItemPaddingRight"
+        android:paddingBottom="@dimen/list_big_vertical_padding"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+
+        tools:text="Subtitle"/>
+
+    <TextView
+        android:id="@id/list_text_1"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@id/list_text_2"
+        android:background="?attr/colorAccent"
+
+        android:layout_toLeftOf="@id/list_icon_1"
+        android:layout_toStartOf="@id/list_icon_1"
+
+        android:paddingLeft="?attr/listPreferredItemPaddingLeft"
+        android:paddingRight="?attr/listPreferredItemPaddingRight"
+        android:paddingStart="?attr/listPreferredItemPaddingLeft"
+        android:paddingEnd="?attr/listPreferredItemPaddingRight"
+        android:paddingTop="@dimen/list_big_vertical_padding"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+
+        tools:text="Title"/>
+
+</RelativeLayout>

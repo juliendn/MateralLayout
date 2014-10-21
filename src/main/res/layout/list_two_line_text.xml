@@ -7,7 +7,7 @@
     android:layout_height="@dimen/list_item_two_line_height">
 
     <TextView
-        android:id="@+id/list_text_1"
+        android:id="@id/list_text_1"
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
         tools:text="Title"/>
 
     <TextView
-        android:id="@+id/list_text_2"
+        android:id="@id/list_text_2"
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,11 +38,11 @@
         android:layout_alignRight="@id/list_text_1"
         android:layout_alignEnd="@id/list_text_1"
 
-        android:layout_below="@+id/list_text_1"
+        android:layout_below="@id/list_text_1"
 
         android:paddingBottom="@dimen/list_big_vertical_padding"
 
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
 
         tools:text="Subtitle"/>
 

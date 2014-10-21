@@ -7,7 +7,7 @@
     android:layout_height="@dimen/list_item_two_line_height">
 
     <ImageView
-        android:id="@+id/list_item_img"
+        android:id="@id/list_img"
 
         android:layout_width="@dimen/list_with_icon_text_padding"
         android:layout_height="match_parent"
@@ -22,13 +22,13 @@
         tools:src="@drawable/circle"/>
 
     <TextView
-        android:id="@+id/list_text_1"
+        android:id="@id/list_text_1"
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:layout_toEndOf="@id/list_item_img"
-        android:layout_toRightOf="@id/list_item_img"
+        android:layout_toEndOf="@id/list_img"
+        android:layout_toRightOf="@id/list_img"
 
         android:paddingTop="@dimen/list_big_vertical_padding"
 
@@ -36,18 +36,18 @@
         tools:text="Title"/>
 
     <TextView
-        android:id="@+id/list_text_2"
+        android:id="@id/list_text_2"
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
         android:layout_alignLeft="@id/list_text_1"
         android:layout_alignStart="@id/list_text_1"
-        android:layout_below="@+id/list_text_1"
+        android:layout_below="@id/list_text_1"
 
         android:paddingBottom="@dimen/list_big_vertical_padding"
 
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
         tools:text="Subtitle"/>
 
 </RelativeLayout>

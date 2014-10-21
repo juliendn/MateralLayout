@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TextView
+    android:id="@+id/list_text_1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_no_icon_text_padding"
+
+    android:paddingTop="@dimen/list_big_vertical_padding"
+    android:paddingBottom="@dimen/list_big_vertical_padding"
+
+    android:paddingEnd="?attr/listPreferredItemPaddingRight"
+    android:paddingLeft="?attr/listPreferredItemPaddingLeft"
+    android:paddingRight="?attr/listPreferredItemPaddingRight"
+    android:paddingStart="?attr/listPreferredItemPaddingLeft"
+
+    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+
+    tools:text="Title"/>

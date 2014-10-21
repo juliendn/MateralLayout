@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_avatar_with_single_line_height">56dp</dimen>
+    <dimen name="list_item_single_line_height">48dp</dimen>
+    <dimen name="list_item_two_line_height">72dp</dimen>
+    <dimen name="list_no_icon_text_padding">16dp</dimen>
+    <dimen name="list_with_icon_text_padding">72dp</dimen>
+    <dimen name="list_big_vertical_padding">16dp</dimen>
+    <dimen name="list_item_three_line_height">88dp</dimen>
+</resources>
